@@ -1,0 +1,36 @@
+@keyframes desvanecer_arriba{
+	from{
+		top: 0.2em;
+	}
+	to{
+		top: -3.2em;
+		opacity: 0;
+	}
+}
+
+@keyframes moverImagen{
+	from{
+	}
+	to{
+		background-color: rgba(255, 233, 0, 0.5); /*Color resaltado - Hacer less*/
+	}
+}
+
+@keyframes desvanecer_detalles{
+	from{
+	}
+	to{
+	background-color: #4981c7;
+	color: #e6d00e;
+	}
+}
+@keyframes desvanecer_detalles_back{
+	from{
+		background-color: #4981c7;
+		color: #e6d00e;
+	}
+	to{
+		background-color: #d2e0f7;
+		color: #000;
+	}
+}

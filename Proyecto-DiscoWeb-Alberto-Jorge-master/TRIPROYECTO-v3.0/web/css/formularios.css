@@ -1,0 +1,62 @@
+#form-acceso{
+	display: none;
+}
+
+#form-registro *, #form-modificar *{
+	display: block;
+	margin: 0 auto;
+}
+#form-registro .boton-basico, #form-modificar .boton-basico{
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+#form-registro label, #form-modificar label{
+	width: 80%;
+	height: 2em;	
+	font-size: 1.2em;
+	margin-top: 0.5em;
+	margin-bottom: -0.5em;
+}
+#form-registro select, #form-modificar select, #form-registro .cuadro, #form-modificar .cuadro{
+	height: 2em;	
+	font-size: 1.1em;
+	margin-bottom: 0.5em;
+	width: 80%;
+}
+#form-modificar .cuadro-oculto{
+	display: none;
+}
+
+label {
+	text-align: center;
+}
+#planes option:nth-child(1) {
+	background-color: rgba(96,209,43,0.5);
+}
+#planes option:nth-child(2) {
+	background-color: rgba(25,193,243,0.5);
+}
+#planes option:nth-child(3){
+	background-color: rgba(169,54,205,0.5);
+}
+#planes option:nth-child(4){
+	background-color: rgba(245,235,10,0.5);
+}
+
+#estadoOculto{
+	display: none !important; 
+}
+#quitarEstilo{
+	text-decoration: none !important
+}
+
+#estados option:nth-child(1) {
+	background-color: rgba(96,209,43,0.5);
+}
+#estados option:nth-child(2) {
+	background-color: rgba(163,15,15,0.5);
+}
+#estados option:nth-child(3){
+	background-color: rgba(38,33,33,0.5);
+}

@@ -1,0 +1,84 @@
+#boton-entrar, .boton-basico{
+	text-transform: uppercase;
+ 	font-weight: bold;
+	font-size: 0.8em;
+	width: 10em;
+	height: 2em;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	right: 0;
+	top: 0;
+	box-shadow: 0.2em 0.2em black;
+	background-color: hsl(240, 64%, 80%);
+	border: none;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	
+}
+#boton-entrar:hover, .boton-basico:hover{
+	right: -0.2em;
+	top: 0.2em;
+	box-shadow: 0em 0em black;	
+}
+#boton-entrar:focus, .boton-basico:focus{
+	right: -0.2em;
+	box-shadow: 0em 0em black;
+	animation-name: desvanecer_arriba;
+	animation-fill-mode: forwards;
+	animation-duration: 1s;
+}
+
+#cerrarVerusuarios, #altaVerusuarios{
+	width: 8em;
+	height: 1.75em;
+
+}
+
+header img{
+	width: 2em;
+	border: 0.1em solid #114562;
+	border-radius: 100%;
+	background-color: #16161f;
+}
+header img:active{
+	width: 1.9em;
+	border: none;
+	margin: 0.1em;
+}
+header img:hover{
+	cursor: alias;
+}
+#refrescarIcono, #luzIcono, #ayudaIcono{
+	width: 1.75em;
+	margin: 0.5em;
+	background-color: #d2e0f7;
+	padding: 0.5em;
+	border: 0.2em solid #16161f;
+}
+#refrescarIcono:active, #luzIcono:active, #ayudaIcono:active{
+	padding: 0.45em;
+	margin-left: 0.55em;
+	margin-right: 0.55em;
+	background-color: rgba(255, 233, 0, 1) !important;
+}
+#refrescarIcono:hover, #luzIcono:hover{
+	cursor: pointer;
+	animation-name: iluminar_icono;
+	animation-duration: 0.5s;
+	animation-fill-mode: forwards;
+}
+
+#ayudaIcono:hover{
+	cursor: help;
+	animation-name: iluminar_icono;
+	animation-duration: 0.5s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes iluminar_icono{
+	to{
+		background-color: rgba(255, 233, 0, 0.5);
+	}
+}

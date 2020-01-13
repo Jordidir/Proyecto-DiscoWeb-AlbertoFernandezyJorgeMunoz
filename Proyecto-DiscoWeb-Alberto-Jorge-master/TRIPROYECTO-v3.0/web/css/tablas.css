@@ -1,0 +1,64 @@
+#tabla-usuarios, #tabla-archivos{
+	border-collapse: collapse;
+	color: black;
+	background-color: none;
+	margin: 0 auto;
+	width: 90%;
+	border: 0.2em solid rgb(140, 170, 190);
+}
+
+#tabla-usuarios .celda, #tabla-archivos .celda{
+	padding: 0.5em;
+	margin: 0;
+	text-align: center;
+	background-color: rgb(190, 210, 235);
+	display: block;
+}
+#tabla-usuarios:hover, #tabla-archivos:hover, #tabla-detalles:hover{
+	cursor: pointer;
+}
+#tabla-detalles td{
+	animation-name: desvanecer_detalles_back;
+	animation-duration: 0.5s;
+	animation-direction: alternate;
+}
+
+#tabla-detalles td:hover{
+	animation-name: desvanecer_detalles;
+	animation-duration: 0.5s;
+	animation-fill-mode: forwards;
+}
+#tabla-archivos th{
+	display: none;
+}
+#tabla-usuarios .celda:first-child, #tabla-archivos .celda:first-child{
+	background-color: rgb(140, 170, 190);
+}
+#tabla-archivos .celda:nth-child(1){
+	border-top: 0.2em solid rgb(140, 170, 190);
+}
+
+#tabla-archivos{
+	border-top: none;
+}
+#tabla-archivos img, #tabla-usuarios img{
+	cursor: pointer;
+	width: 1em;
+	height: 1em;
+}
+#tabla-detalles{
+	margin: 0 auto !important;
+	border: 0.2em solid rgb(22, 22, 31);
+	border-collapse: collapse;
+}
+#tabla-detalles th{
+	text-align: center;
+	border: 0.2em solid rgb(22, 22, 31);
+	background-color: rgb(140, 170, 190);
+	padding: 1em;
+}
+#tabla-detalles td{
+	text-align: center;
+	border: 0.2em solid rgb(22, 22, 31);
+	padding: 1em;
+}

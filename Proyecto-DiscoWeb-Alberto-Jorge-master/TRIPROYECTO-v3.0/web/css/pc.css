@@ -1,0 +1,30 @@
+#tabla-usuarios tr, #tabla-archivos tr{
+	display: table-row;
+	border: none;
+}
+#tabla-archivos tr{
+	border: 0.1em solid rgb(140, 170, 190);
+}
+#tabla-usuarios .celda, #tabla-archivos .celda{
+	display: table-cell;
+}
+#form-registro label, #form-modificar label, #form-registro select, #form-modificar select, #form-registro .cuadro, #form-modificar .cuadro{
+	width: 25%;
+	height: 3em;
+	display: inline-block;	
+
+}
+#form-registro label, #form-modificar label{
+	margin-left: 25%;
+	font-size: 1.5em;
+	text-align: left;
+}
+
+ #form-registro .cuadro, #form-modificar .cuadro{
+ 	font-size: 1.2em;
+}
+#form-registro select, #form-modificar select{
+	margin-left: 5%;
+	width: 15%;
+	text-align: center;
+}

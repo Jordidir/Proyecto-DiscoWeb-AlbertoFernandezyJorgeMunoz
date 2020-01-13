@@ -1,0 +1,14 @@
+/* SECCION DE FONT FACE 
+
+Fuentes obtenidas de DAFONT
+
+*/
+
+@font-face{
+	font-family: "titulo";
+    src: url("../fuentes/BPreplay.otf");
+}
+@font-face{
+	font-family: "cuerpo";
+    src: url("../fuentes/Nineteenth.otf");
+}

@@ -1,0 +1,18 @@
+body {
+  background-color: #114562;
+}
+#content {
+  background-color: #319edb;
+}
+#registro {
+  background-color: #aaaaec;
+}
+.tabla-archivos td {
+  background-color: #d2e0f7;
+}
+.tabla-archivos th {
+  background-color: #5087e0;
+}
+.tabla-archivos td:first-child {
+  background-color: #a7c2ef;
+}

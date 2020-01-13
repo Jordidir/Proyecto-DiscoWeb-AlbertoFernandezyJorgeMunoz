@@ -1,0 +1,36 @@
+@primario: #114562;
+@secundario: lighten(@primario, 30%);
+@resaltado: #aaaaec;
+
+@fondoCeldas:rgb(210, 224, 247);
+@fondoPrimeros:darken(@fondoCeldas, 10%);
+@fondoCabecera:darken(@fondoPrimeros, 20%);
+
+body {
+	background-color: @primario;
+}
+#content{
+	background-color: @secundario;
+}
+	
+#registro{
+	background-color: @resaltado;
+}
+
+
+.tabla-archivos{
+	td{
+		background-color: @fondoCeldas; 
+	}
+	th{
+ 		background-color: @fondoCabecera; 
+	}
+}
+
+.tabla-archivos{
+	td{
+		&:first-child{
+			background-color: @fondoTabla;
+		}
+	}
+}

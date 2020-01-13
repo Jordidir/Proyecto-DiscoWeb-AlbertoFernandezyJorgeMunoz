@@ -1,0 +1,35 @@
+#tabla-usuarios, #tabla-archivos{
+	width: 95%;
+	border: none;
+}
+#tabla-usuarios tr, #tabla-archivos tr{
+	display: inline-block;
+	width: 49%;
+	margin-bottom: 1%;
+	border: 0.1em solid rgb(140, 170, 190);
+}
+#tabla-archivos th{
+	padding: 0.5em;
+	margin: 0;
+	text-align: center;
+	display: table-cell;
+	background-color: #4981c7;
+}
+#tabla-archivos tr{
+	display: table-row;
+}
+#tabla-archivos .celda{
+	display: table-cell;
+}
+#tabla-archivos .celda:nth-child(1){
+	border-top: none;
+}
+#form-registro label, #form-modificar label, #form-registro select, #form-modificar select, #form-registro .cuadro, #form-modificar .cuadro{
+	width: 60%;
+	height: 3em;	
+}
+#form-registro label, #form-modificar label{
+	margin-top: 1em;
+	font-size: 1.5em;
+	margin-bottom: -1.5em;
+}

@@ -1,0 +1,36 @@
+#registro{
+	padding-bottom: 1em;
+	margin: 0 auto;
+	background-color: #aaaaec; /*Color resaltado - Hecho en less*/
+	margin-bottom: 1em;
+	border: none;
+}
+
+#registro *{
+	display: block;
+	text-align: center;
+	font-size: 1.2em;
+	margin: 0.5em;
+}
+
+#registro input{
+	height: 1.8em;	
+	font-size: 0.7em;
+	margin: 0 auto;
+	margin-top: -0.7em;
+}
+
+#aviso{
+	background-color: transparent;
+	border:none;
+}
+
+#aviso{
+	color: red;
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.35em;
+	margin-bottom: 1.5em;
+	padding: 0em;
+}
+

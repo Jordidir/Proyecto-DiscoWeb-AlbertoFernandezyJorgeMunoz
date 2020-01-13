@@ -1,0 +1,97 @@
+body {
+  	background-color: #114562; /*Color primario - Hecho en less*/
+  	background-position: center;
+  	text-align: justify;
+}
+
+#container {
+	margin: 0 auto;
+	width: 100%;
+}
+
+#header {
+  	background-color: #114562; /*Color primario de nuevo - Hecho en less*/
+  	text-align: center;
+  	padding: 1em;
+  	color: #fff; 
+  	text-shadow: #000 0.1em 0.1em 0.2em;
+  	margin: -0.6em -0.6em 0em -0.6em;
+}
+
+#header h1 {
+	font-family: 'titulo';
+  	font-size: 2em;
+  	margin: 0;
+}
+
+#header h2 {
+	font-family: 'titulo';
+  	font-size: 1.85em;
+  	margin: 0;
+}
+
+#content {
+	font-family: 'cuerpo';
+  	background: #d2e0f7; /*Color secundario - Hecho en less*/
+  	padding: 0.5em;
+  	margin: 0em -0.6em 0em -0.6em;
+  	border: 0.2em solid #114562;
+}
+#piePagina{
+  font-size: 0.8em;
+  color: #fff;
+  text-shadow: 0.05em 0.05em #000;
+  background-color: #114562;
+  padding: 1.5em 0.9em;
+  display: block;
+  text-align: center;
+  position: relative;
+  right: 1em;
+  width: 100%;
+  margin-bottom: -3em;
+}
+
+#piePagina li{
+  list-style: none;
+}
+#piePagina a{
+  text-decoration: none;
+  color: yellow;
+}
+
+#desplegar{
+  animation-name: moverImagen;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+#desplegar, #plegar{
+  width: 4em;
+  display: block;
+  margin: 0 auto;
+  margin-top: 0em;
+  padding: 1em;
+}
+
+#desplegar:hover, #plegar:hover{
+  cursor: pointer;
+}
+
+#plegar{
+  margin-top: 2em;
+  display: none;
+}
+
+#darseAlta{ /*enlace*/
+  font-size: 1.4em;
+  color: rgba(15, 56, 255, 0.9);
+  display: block;
+  text-align: center;
+  margin-bottom: 2em;
+  text-decoration: none;
+}
+#darseAlta:hover{
+  color: rgb(150, 56, 255);
+  text-decoration: underline;
+}
